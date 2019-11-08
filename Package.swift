@@ -5,7 +5,6 @@ import PackageDescription
 
 let package = Package(
     name: "XCLogParser",
-    platforms: [.macOS(.v10_13)],
     products: [
     	.executable(name: "xclogparser", targets: ["XCLogParserApp"]),
         .library(name: "XCLogParser", targets: ["XCLogParser"])
